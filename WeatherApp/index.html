@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="location">
+            <h2 class="city"></h2>
+            <div class="date-time"></div>
+
+            <div class="weather loading">
+                <h2 class="temp"></h2>
+                <div class="flex">
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" class="icon" width="80" height="80" />
+                    <div><b class="description"></b></div>
+                </div>
+                <div class="humidity"></div>
+                <div class="pressure"></div>
+                <div class="wind"></div>
+                <div class="real-feel"></div>
+                <div class="min-temp"></div>
+                <div class="max-temp"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
